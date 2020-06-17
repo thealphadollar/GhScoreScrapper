@@ -1,0 +1,27 @@
+{
+  "name": "ghscorescrapper",
+  "version": "0.5.0",
+  "description": "A script to fetch student scores based on GitHub contributions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+thealphadollar/GhScoreScrapper.git"
+  },
+  "author": "thealphadollar",
+  "license": "MIT",
+  "bugs": {
+    "url": "thealphadollar/GhScoreScrapper/issues"
+  },
+  "homepage": "thealphadollar/GhScoreScrapper#readme",
+  "dependencies": {
+    "@adobe/node-fetch-retry": "^1.0.1",
+    "esm": "^3.2.25",
+    "fetch-retry": "^3.1.0",
+    "https-proxy-agent": "^5.0.0",
+    "node-fetch": "^2.6.0"
+  }
+}
